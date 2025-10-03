@@ -12,20 +12,27 @@ Aplicación de escritorio en Python para consultar el clima actual y el pronóst
 - **Ejecutable standalone** para Windows generado con PyInstaller.
 
 ## Estructura del proyecto
-```
-clima/
-    api.py           # Funciones para consultar APIs de clima y geocoding
-    utils.py         # Utilidades de formato
-    historial.py     # Manejo de historial de ciudades
-    app.py           # Lógica de la interfaz gráfica (Tkinter)
-config/
-    settings.py      # Configuración global (unidades, idioma)
-reportes/
-    graficos.py      # Gráficos interactivos con Plotly
-    consola.py       # Reporte en consola (opcional)
-main.py             # Punto de entrada de la app
-ciudades.json       # Historial de ciudades (se genera automáticamente)
-requirements.txt    # Dependencias
+
+```text
+Weather/
+├── clima/
+│   ├── api.py           # Funciones para consultar APIs de clima y geocoding
+│   ├── utils.py         # Utilidades de formato
+│   ├── historial.py     # Manejo de historial de ciudades
+│   └── app.py           # Lógica de la interfaz gráfica (Tkinter)
+├── config/
+│   └── settings.py      # Configuración global (unidades, idioma)
+├── reportes/
+│   ├── graficos.py      # Gráficos interactivos con Plotly
+│   └── consola.py       # Reporte en consola (opcional)
+├── main.py              # Punto de entrada de la app
+├── ciudades.json        # Historial de ciudades (se genera automáticamente)
+├── requirements.txt     # Dependencias
+├── README.md            # Documentación principal
+├── .gitignore           # Exclusiones de git
+├── dist/
+│   └── main.exe         # Ejecutable standalone generado por PyInstaller
+└── build/               # Archivos temporales de PyInstaller (ignorado por git)
 ```
 
 ## Instalación y ejecución desde código fuente
