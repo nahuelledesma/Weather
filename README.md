@@ -31,7 +31,7 @@ requirements.txt    # Dependencias
 ## Instalación y ejecución desde código fuente
 1. **Clona el repositorio:**
     ```sh
-    git clone https://github.com/tuusuario/ClimaApp.git
+    git clone https://github.com/nahuelledesma/Weather.git
     cd ClimaApp
     ```
 2. **Instala las dependencias:**
