@@ -1,0 +1,31 @@
+# Byte-compiled / cache / virtual envs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# PyInstaller
+/build/
+*.spec
+
+# VSCode
+.vscode/
+
+# Historial y archivos temporales
+ciudades.json
+*.tmp
+*.log
+
+# Entornos virtuales
+venv/
+.env/
+ENV/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Otros
+*.bak
+*.swp
